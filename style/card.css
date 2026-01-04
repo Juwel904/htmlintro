@@ -1,0 +1,50 @@
+.card-container{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.card{
+width: 300px;
+border: 2px solid skyblue;
+border-radius: 10px;
+padding: 10px;
+box-shadow: 10px 10px 10px grey;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.card h3{
+    font-size: 1.25em;
+    font-weight: 600;
+}
+.card p{
+    justify-content: justify;
+}
+
+.card button{
+    background-color: rgb(255, 127, 193);
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+body{
+    max-width: 1170px;
+    margin: 0 auto;
+
+}
+.card:hover{
+    background-color: aquamarine;
+}
+
+
+echo "# card" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Juwel904/card.git
+git push -u origin main
